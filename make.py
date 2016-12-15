@@ -134,7 +134,7 @@ try:
 
   stage('emcc: ' + ' '.join(emcc_args))
 
-  temp = os.path.join('..', '..', 'builds', 'temp.js')
+  temp = os.path.join('..', '..', 'builds', 'build.js')
   emscripten.Building.emcc('libbullet.bc', emcc_args + ['--js-transform', 'python %s' % os.path.join('..', '..', 'bundle.py')],
                            temp)
 
