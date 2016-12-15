@@ -13,14 +13,7 @@
   ],
   "license": "zlib",
   "ignore": [
-    "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    "bullet",
-    "examples",
-    "*.py",
-    "*.h"
+    "bower_components"
   ]
 }
