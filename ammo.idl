@@ -79,6 +79,7 @@ interface btTransform {
   void setRotation([Ref] btQuaternion rotation);
   [Ref] btVector3 getOrigin();
   [Value] btQuaternion getRotation();
+  void setBasis([Ref] btMatrix3x3 basis);
   [Ref] btMatrix3x3 getBasis();
   void setFromOpenGLMatrix(float[] m);
 };
